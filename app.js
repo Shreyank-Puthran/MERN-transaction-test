@@ -6,11 +6,9 @@ import orderRoutes from "./routes/orderRoutes.js";
 
 const app = express();
 
-// middleware
 app.use(cors());
 app.use(express.json());
 
-// routes
 app.use(walletRoutes);
 app.use(orderRoutes);
 
