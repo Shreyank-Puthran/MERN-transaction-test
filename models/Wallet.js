@@ -2,12 +2,6 @@ import mongoose from "mongoose";
 
 const walletSchema = new mongoose.Schema(
   {
-    // clientId: {
-    //   type: mongoose.Schema.Types.ObjectId,
-    //   ref: "Client",
-    //   required: true,
-    //   unique: true
-    // },
     clientId: {
       type: String,
       required: true,
